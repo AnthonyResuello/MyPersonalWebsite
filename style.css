@@ -13,11 +13,6 @@ body {
 }
 
 
-::marker {
-    display:none;
-}
-
-
 .background {
     background: 
     linear-gradient(
