@@ -11,7 +11,13 @@ body {
     font-family: 'Quicksand', sans-serif;
     
 }
- 
+
+
+::marker {
+    display:none;
+}
+
+
 .background {
     background: 
     linear-gradient(
