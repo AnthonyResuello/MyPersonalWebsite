@@ -11,11 +11,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     
 }
-  ul {
-            list-style-type: none; /* Removes bullet points */
-            padding: 0; /* Removes default padding */
-            margin: 0; /* Removes default margin */
-        }
+ 
 .background {
     background: 
     linear-gradient(
