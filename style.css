@@ -34,6 +34,12 @@ body {
 }
 
 
+.name {
+    font-weight:  bold;
+    color:#ffffff;
+    font-size: 20px;
+
+}
 
 
 
@@ -100,8 +106,8 @@ body {
     gap: 2.5rem;
     margin-right: 10rem;
     margin-left: 22rem;
-    margin-top: 10rem;
-    margin-bottom: 15.4rem;
+    margin-top: 12rem;
+    margin-bottom: 14rem;
 
 }
 
@@ -368,6 +374,22 @@ p {
 /* Media query for screens smaller than 768px */
 @media screen and (max-width: 1500px) {
    
+.name {
+    display: none;
+}
+
+
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a5323; 
+    padding: 10px 50px;
+ 
+}
+
 
 /* hero */
 
