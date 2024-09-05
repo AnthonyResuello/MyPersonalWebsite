@@ -16,8 +16,8 @@ body {
 .background {
     background: 
     linear-gradient(
-        rgba(0, 0, 0, 0.5), /* Start color (black with 50% opacity) */
-        rgba(0, 0, 0, 0.5)  /* End color (black with 50% opacity) */
+        rgba(0, 0, 0, 0.4), /* Start color (black with 50% opacity) */
+        rgba(0, 0, 0, 0.4)  /* End color (black with 50% opacity) */
     ),
     url('download.gif'); /* Background image */
     background-size: cover;
@@ -43,9 +43,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #314d35; 
-    padding: 10px 20px;
-   
+    background-color: #1a5323; 
+    padding: 10px 150px;
+ 
 }
 
 /* Logo styling */
@@ -92,7 +92,7 @@ body {
 
 .hero_p {
     font-size: 1.4rem;
-    width: 80%;
+    width: 70%;
    
 }
 .hero {
@@ -101,21 +101,21 @@ body {
     margin-right: 10rem;
     margin-left: 22rem;
     margin-top: 10rem;
-    margin-bottom: 14rem;
+    margin-bottom: 15.4rem;
 
 }
 
 .btn_hero {
     display: inline-block; /* Ensures padding is applied correctly */
     font-size: 1.2rem;
-    background-color: #3c7c46; 
+    background-color: #2d7738; 
     color: #ffffff; /* Text color */
-    padding: 1rem 2rem; /* Padding: top/bottom, left/right */
+    padding: 1rem 1.5rem; /* Padding: top/bottom, left/right */
     text-decoration: none; /* Removes underline from links */
     cursor: pointer; /* Pointer cursor on hover */
     border: 2px solid transparent; /* Transparent border for animation */
     border-radius: 10px; /* Rounded corners */
-    border: #0f4216 solid 1px;
+    border: #0f4216 solid 2px;
     margin-top: 1.5rem;
     font-weight: bold;
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Smooth transitions */
@@ -124,9 +124,9 @@ body {
 
 .btn_hero:hover,
 .btn_hero:focus {
-    background-color: #229e47; /* Background color on hover/focus */
+    background-color: #1c7729; 
     color: #1f3d21; /* Text color on hover/focus */
-    border-color: #1f3d21; /* Border color on hover/focus */
+   
 }
 
 /* Optional: Adding a subtle shadow for better visibility */
@@ -150,12 +150,12 @@ body {
 
 
 .skills {
-    background-color: #314d35; 
+    background-color: #1a5323; 
     display: flex;
     padding: 4rem;
     text-align: center;
     font-size: 1.5rem;
- 
+
 }
 
 .skills p {
@@ -217,7 +217,7 @@ body {
 }
 
 .project_content {
-    background-color: #314d35;
+    background-color: #1a5323;
     color: #fff;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -231,7 +231,7 @@ body {
 }
 
 .project_image {
-    background-color: #1f3d21;
+    background-color: #123f15;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -291,7 +291,7 @@ body {
 
 
 footer {
-    background-color: #314d35; 
+    background-color: #1a5323;
     text-align: center;
     padding: 3rem;
     font-size: 1.2rem;
@@ -437,7 +437,7 @@ p {
 
 
 .skills {
-    background-color: #314d35; 
+    background-color: #1a5323; 
     display: flex;
     padding: 4rem;
     text-align: center;
@@ -505,7 +505,7 @@ p {
 }
 
 .project_content {
-    background-color: #314d35;
+    background-color: #1a5323;
     color: #fff;
     padding: 2rem;
     box-sizing: border-box;
@@ -516,7 +516,7 @@ p {
 }
 
 .project_image {
-    background-color: #1f3d21;
+    background-color: #123f15;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -643,7 +643,7 @@ p {
     
     
     .skills {
-        background-color: #314d35; 
+        background-color: #1a5323; 
         display: flex;
         padding: 4rem;
         text-align: center;
@@ -712,7 +712,7 @@ p {
     }
     
     .project_content {
-        background-color: #314d35;
+        background-color: #1a5323;
         color: #fff;
         padding: 2rem;
         box-sizing: border-box;
@@ -723,7 +723,7 @@ p {
     }
     
     .project_image {
-        background-color: #1f3d21;
+        background-color: #123f15;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -854,7 +854,7 @@ p {
     
     
     .skills {
-        background-color: #314d35; 
+        background-color: #1a5323; 
         display: flex;
         padding: 4rem;
         text-align: center;
@@ -922,7 +922,7 @@ p {
     }
     
     .project_content {
-        background-color: #314d35;
+        background-color: #1a5323;
         color: #fff;
         padding: 2rem;
         box-sizing: border-box;
@@ -933,7 +933,7 @@ p {
     }
     
     .project_image {
-        background-color: #1f3d21;
+        background-color: #123f15;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1060,7 +1060,7 @@ p {
         
         
         .skills {
-            background-color: #314d35; 
+            background-color: #1a5323; 
             display: flex;
             padding: 4rem;
             text-align: center;
@@ -1129,7 +1129,7 @@ p {
         }
         
         .project_content {
-            background-color: #314d35;
+            background-color: #1a5323;
             color: #fff;
             padding: 2rem;
             box-sizing: border-box;
@@ -1140,7 +1140,7 @@ p {
         }
         
         .project_image {
-            background-color: #1f3d21;
+            background-color: #123f15;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -1278,7 +1278,7 @@ p {
         
         
         .skills {
-            background-color: #314d35; 
+            background-color: #1a5323; 
             display: flex;
             padding: 2.5rem;
             text-align: center;
@@ -1347,7 +1347,7 @@ p {
         }
         
         .project_content {
-            background-color: #314d35;
+            background-color: #1a5323;
             color: #fff;
             padding: 2rem;
             box-sizing: border-box;
@@ -1358,7 +1358,7 @@ p {
         }
         
         .project_image {
-            background-color: #1f3d21;
+            background-color: #123f15;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -1567,7 +1567,7 @@ p {
         }
         
         .project_content {
-            background-color: #314d35;
+            background-color: #1a5323;
             color: #fff;
             padding: 2rem;
             box-sizing: border-box;
@@ -1578,7 +1578,7 @@ p {
         }
         
         .project_image {
-            background-color: #1f3d21;
+            background-color: #123f15;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -1716,7 +1716,7 @@ p {
         
         
         .skills {
-            background-color: #314d35; 
+            background-color: #1a5323; 
             display: flex;
             padding: 4rem;
             text-align: center;
@@ -1785,7 +1785,7 @@ p {
         }
         
         .project_content {
-            background-color: #314d35;
+            background-color: #1a5323;
             color: #fff;
             padding: 2rem;
             box-sizing: border-box;
@@ -1796,7 +1796,7 @@ p {
         }
         
         .project_image {
-            background-color: #1f3d21;
+            background-color: #123f15;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -1939,7 +1939,7 @@ p {
         
         
         .skills {
-            background-color: #314d35; 
+            background-color: #1a5323; 
             display: flex;
             padding: 1rem;
             text-align: center;
@@ -2007,7 +2007,7 @@ p {
         }
         
         .project_content {
-            background-color: #314d35;
+            background-color: #1a5323;
             color: #fff;
             padding: 2rem;
             box-sizing: border-box;
@@ -2018,7 +2018,7 @@ p {
         }
         
         .project_image {
-            background-color: #1f3d21;
+            background-color: #123f15;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -2175,7 +2175,7 @@ p {
         
         
         .skills {
-            background-color: #314d35; 
+            background-color: #1a5323; 
             display: flex;
             padding: 1rem;
             text-align: center;
@@ -2241,7 +2241,7 @@ p {
         }
         
         .project_content {
-            background-color: #314d35;
+            background-color: #1a5323;
             color: #fff;
             padding: 2rem;
             box-sizing: border-box;
@@ -2252,7 +2252,7 @@ p {
         }
         
         .project_image {
-            background-color: #1f3d21;
+            background-color: #123f15;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -2406,7 +2406,7 @@ p {
         
         
         .skills {
-            background-color: #314d35; 
+            background-color: #1a5323; 
             display: flex;
             padding: 1rem;
             text-align: center;
@@ -2472,7 +2472,7 @@ p {
         }
         
         .project_content {
-            background-color: #314d35;
+            background-color: #1a5323;
             color: #fff;
             padding: 2rem;
             box-sizing: border-box;
@@ -2483,7 +2483,7 @@ p {
         }
         
         .project_image {
-            background-color: #1f3d21;
+            background-color: #123f15;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -2629,7 +2629,7 @@ p {
                 
                 
                 .skills {
-                    background-color: #314d35; 
+                     background-color: #1a5323; 
                     display: flex;
                     padding: 1rem;
                     text-align: center;
@@ -2695,7 +2695,7 @@ p {
                 }
                 
                 .project_content {
-                    background-color: #314d35;
+                    background-color: #1a5323;
                     color: #fff;
                     padding: 2rem;
                     box-sizing: border-box;
@@ -2706,7 +2706,7 @@ p {
                 }
                 
                 .project_image {
-                    background-color: #1f3d21;
+                    background-color: #123f15;
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -2919,7 +2919,7 @@ p {
                 }
                 
                 .project_content {
-                    background-color: #314d35;
+                    background-color: #1a5323;
                     color: #fff;
                     padding: 2rem;
                     box-sizing: border-box;
@@ -2931,7 +2931,7 @@ p {
                 }
                 
                 .project_image {
-                    background-color: #1f3d21;
+                    background-color: #123f15;
                     display: flex;
                     align-items: center;
                     justify-content: center;
