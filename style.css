@@ -28,9 +28,10 @@ body {
 /* Set default styles for the html and body */
 
 .logo1 {
-    width: 7rem;
-    border-radius: 100px;
-    border: 1px solid black;
+
+    border-radius: 20px;
+  
+
 }
 
 
