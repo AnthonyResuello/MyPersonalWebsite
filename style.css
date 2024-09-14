@@ -14,14 +14,18 @@ body {
 
 
 .background {
+    
     background: 
     linear-gradient(
         rgba(0, 0, 0, 0.4), /* Start color (black with 50% opacity) */
         rgba(0, 0, 0, 0.4)  /* End color (black with 50% opacity) */
     ),
-    url('download.gif'); /* Background image */
-    background-size: cover;
- 
+    url('dfw6bqy-74554ae5-1f17-4c2f-8604-e615e2da0075.gif'); /* Background image */
+  
+    background-size: cover; /* Makes the image cover the entire container */
+
+    background-repeat: no-repeat; /* Prevents repeating of the image */
+
 }
 
 
@@ -30,7 +34,7 @@ body {
 .logo1 {
 
     border-radius: 20px;
-  
+    
 
 }
 
@@ -50,15 +54,16 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1a5323; 
-    padding: 10px 150px;
+    background-color: #073f09; 
+    padding: 15px 150px;
  
 }
 
 /* Logo styling */
 .logo img {
-    height: 55px; /* Adjust as necessary */
+    height: 50px; /* Adjust as necessary */
     width: auto;
+ 
 }
 
 /* Navigation links styling */
@@ -84,7 +89,7 @@ body {
 }
 
 .span {
-    color: rgb(57, 212, 122);
+    color: rgb(43, 156, 68);
 }
 
 
@@ -104,11 +109,11 @@ body {
 }
 .hero {
     display: flex;
-    gap: 2.5rem;
+    gap: 3rem;
     margin-right: 10rem;
     margin-left: 22rem;
     margin-top: 12rem;
-    margin-bottom: 14rem;
+    margin-bottom: 14.5rem;
 
 }
 
@@ -141,15 +146,15 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow on click */
 }
 .gif-container {
-    width: 220px; /* Set the width of the container */
-    height: 220px; /* Set the height of the container */
-    border-radius: 50px;
-    border: #000000 solid 1px;
-    background-image: url('22323206.gif'); /* Set the GIF as the background */
-    background-size: 150%; /* Zoom in by 130% */
-    background-position: right; /* Center the zoomed-in part */
+    width: 200px; /* Set the width of the container */
+    height: 200px; /* Set the height of the container */
+    border: solid 4px rgb(41, 82, 23);
+    border-radius: 30px;
+    background-image: url('4381aae009e34d092324d7cc1ccce92e.gif'); /* Set the GIF as the background */
+    background-size: 138%; /* Zoom in by 130% */
+    background-position: center; /* Center the zoomed-in part */
     background-repeat: no-repeat; /* Prevent the background from repeating */
-    transform: scaleX(-1); /* Flip the image horizontally */
+  
     /* To flip vertically, use scaleY(-1) instead */
 }
 /* skills */
@@ -157,7 +162,7 @@ body {
 
 
 .skills {
-    background-color: #1a5323; 
+    background-color: #073f09; 
     display: flex;
     padding: 4rem;
     text-align: center;
@@ -386,7 +391,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1a5323; 
+    background-color: #073f09; 
     padding: 10px 50px;
  
 }
@@ -444,15 +449,15 @@ p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow on click */
 }
 .gif-container {
-    width:190px; /* Set the width of the container */
-    height: 190px; /* Set the height of the container */
-    border-radius: 50px;
-    border: #000000 solid 1px;
-    background-image: url('22323206.gif'); /* Set the GIF as the background */
-    background-size: 150%; /* Zoom in by 130% */
-    background-position: right; /* Center the zoomed-in part */
+    width: 200px; /* Set the width of the container */
+    height: 200px; /* Set the height of the container */
+    border: solid 4px rgb(41, 82, 23);
+    border-radius: 30px;
+    background-image: url('4381aae009e34d092324d7cc1ccce92e.gif'); /* Set the GIF as the background */
+    background-size: 138%; /* Zoom in by 130% */
+    background-position: center; /* Center the zoomed-in part */
     background-repeat: no-repeat; /* Prevent the background from repeating */
-    transform: scaleX(-1); /* Flip the image horizontally */
+  
     /* To flip vertically, use scaleY(-1) instead */
 }
 /* skills */
@@ -460,7 +465,7 @@ p {
 
 
 .skills {
-    background-color: #1a5323; 
+    background-color: #073f09; 
     display: flex;
     padding: 4rem;
     text-align: center;
@@ -652,13 +657,12 @@ p {
     .gif-container {
         width: 180px; /* Set the width of the container */
         height: 180px; /* Set the height of the container */
-        border-radius: 50px;
-        border: #000000 solid 1px;
-        background-image: url('22323206.gif'); /* Set the GIF as the background */
-        background-size: 150%; /* Zoom in by 130% */
-        background-position: right; /* Center the zoomed-in part */
+        border: solid 4px rgb(41, 82, 23);
+        border-radius: 30px;
+        background-image: url('4381aae009e34d092324d7cc1ccce92e.gif'); /* Set the GIF as the background */
+        background-size: 138%; /* Zoom in by 130% */
+        background-position: center; /* Center the zoomed-in part */
         background-repeat: no-repeat; /* Prevent the background from repeating */
-        transform: scaleX(-1); /* Flip the image horizontally */
         /* To flip vertically, use scaleY(-1) instead */
     }
     /* skills */
@@ -666,7 +670,7 @@ p {
     
     
     .skills {
-        background-color: #1a5323; 
+        background-color: #073f09; 
         display: flex;
         padding: 4rem;
         text-align: center;
@@ -863,13 +867,12 @@ p {
     .gif-container {
         width:190px; /* Set the width of the container */
         height: 190px; /* Set the height of the container */
-        border-radius: 50px;
-        border: #000000 solid 1px;
-        background-image: url('22323206.gif'); /* Set the GIF as the background */
-        background-size: 150%; /* Zoom in by 130% */
-        background-position: right; /* Center the zoomed-in part */
+        border: solid 4px rgb(41, 82, 23);
+        border-radius: 30px;
+        background-image: url('4381aae009e34d092324d7cc1ccce92e.gif'); /* Set the GIF as the background */
+        background-size: 138%; /* Zoom in by 130% */
+        background-position: center; /* Center the zoomed-in part */
         background-repeat: no-repeat; /* Prevent the background from repeating */
-        transform: scaleX(-1); /* Flip the image horizontally */
         /* To flip vertically, use scaleY(-1) instead */
     }
     /* skills */
@@ -877,7 +880,7 @@ p {
     
     
     .skills {
-        background-color: #1a5323; 
+        background-color: #073f09; 
         display: flex;
         padding: 4rem;
         text-align: center;
@@ -1069,21 +1072,19 @@ p {
         .gif-container {
             width: 180px; /* Set the width of the container */
             height: 180px; /* Set the height of the container */
-            border-radius: 50px;
-            border: #000000 solid 1px;
-            background-image: url('22323206.gif'); /* Set the GIF as the background */
-            background-size: 150%; /* Zoom in by 130% */
-            background-position: right; /* Center the zoomed-in part */
+            border: solid 4px rgb(41, 82, 23);
+            border-radius: 30px;
+            background-image: url('4381aae009e34d092324d7cc1ccce92e.gif'); /* Set the GIF as the background */
+            background-size: 138%; /* Zoom in by 130% */
+            background-position: center; /* Center the zoomed-in part */
             background-repeat: no-repeat; /* Prevent the background from repeating */
-            transform: scaleX(-1); /* Flip the image horizontally */
-            /* To flip vertically, use scaleY(-1) instead */
         }
         /* skills */
         
         
         
         .skills {
-            background-color: #1a5323; 
+            background-color: #073f09; 
             display: flex;
             padding: 4rem;
             text-align: center;
@@ -1287,21 +1288,19 @@ p {
         .gif-container {
             width: 150px; /* Set the width of the container */
             height: 150px; /* Set the height of the container */
-            border-radius: 50px;
-            border: #000000 solid 1px;
-            background-image: url('22323206.gif'); /* Set the GIF as the background */
-            background-size: 150%; /* Zoom in by 130% */
-            background-position: right; /* Center the zoomed-in part */
+            border: solid 4px rgb(41, 82, 23);
+            border-radius: 30px;
+            background-image: url('4381aae009e34d092324d7cc1ccce92e.gif'); /* Set the GIF as the background */
+            background-size: 138%; /* Zoom in by 130% */
+            background-position: center; /* Center the zoomed-in part */
             background-repeat: no-repeat; /* Prevent the background from repeating */
-            transform: scaleX(-1); /* Flip the image horizontally */
-            /* To flip vertically, use scaleY(-1) instead */
         }
         /* skills */
         
         
         
         .skills {
-            background-color: #1a5323; 
+            background-color: #073f09; 
             display: flex;
             padding: 2.5rem;
             text-align: center;
@@ -1507,21 +1506,19 @@ p {
         .gif-container {
             width: 150px; /* Set the width of the container */
             height: 150px; /* Set the height of the container */
-            border-radius: 50px;
-            border: #000000 solid 1px;
-            background-image: url('22323206.gif'); /* Set the GIF as the background */
-            background-size: 150%; /* Zoom in by 130% */
-            background-position: right; /* Center the zoomed-in part */
+            border: solid 4px rgb(41, 82, 23);
+            border-radius: 30px;
+            background-image: url('4381aae009e34d092324d7cc1ccce92e.gif'); /* Set the GIF as the background */
+            background-size: 138%; /* Zoom in by 130% */
+            background-position: center; /* Center the zoomed-in part */
             background-repeat: no-repeat; /* Prevent the background from repeating */
-            transform: scaleX(-1); /* Flip the image horizontally */
-            /* To flip vertically, use scaleY(-1) instead */
         }
         /* skills */
         
         
         
         .skills {
-            background-color: #314d35; 
+            background-color: #073f09; 
             display: flex;
             padding: 4rem;
             text-align: center;
@@ -1725,21 +1722,19 @@ p {
         .gif-container {
             width: 120px; /* Set the width of the container */
             height: 120px; /* Set the height of the container */
-            border-radius: 15px;
-            border: #000000 solid 1px;
-            background-image: url('22323206.gif'); /* Set the GIF as the background */
-            background-size: 150%; /* Zoom in by 130% */
-            background-position: right; /* Center the zoomed-in part */
+            border: solid 4px rgb(41, 82, 23);
+            border-radius: 30px;
+            background-image: url('4381aae009e34d092324d7cc1ccce92e.gif'); /* Set the GIF as the background */
+            background-size: 138%; /* Zoom in by 130% */
+            background-position: center; /* Center the zoomed-in part */
             background-repeat: no-repeat; /* Prevent the background from repeating */
-            transform: scaleX(-1); /* Flip the image horizontally */
-            /* To flip vertically, use scaleY(-1) instead */
         }
         /* skills */
         
         
         
         .skills {
-            background-color: #1a5323; 
+            background-color: #073f09; 
             display: flex;
             padding: 4rem;
             text-align: center;
@@ -1897,12 +1892,12 @@ p {
         .gif-container {
             width: 120px; /* Adjust size as needed */
             height: 120px; /* Adjust size as needed */
-            border-radius: 50%;
-            border: #000 solid 1px;
-            background-image: url('22323206.gif'); /* Your GIF */
-            background-size: cover; /* Ensure the GIF covers the container */
-            background-position: center; /* Center the GIF */
-            background-repeat: no-repeat; /* Prevent repeating */
+            border: solid 4px rgb(41, 82, 23);
+            border-radius: 30px;
+            background-image: url('4381aae009e34d092324d7cc1ccce92e.gif'); /* Set the GIF as the background */
+            background-size: 138%; /* Zoom in by 130% */
+            background-position: center; /* Center the zoomed-in part */
+            background-repeat: no-repeat; /* Prevent the background from repeating */
         }
         
         .text-content {
@@ -1947,14 +1942,12 @@ p {
         .gif-container {
             width: 125px; /* Set the width of the container */
             height: 125px; /* Set the height of the container */
-            border-radius: 15px;
-            border: #000000 solid 1px;
-            background-image: url('22323206.gif'); /* Set the GIF as the background */
-            background-size: 150%; /* Zoom in by 130% */
-            background-position: right; /* Center the zoomed-in part */
-            background-repeat: no-repeat; /* Prevent the background from repeating */
-            transform: scaleX(-1); /* Flip the image horizontally */
-            /* To flip vertically, use scaleY(-1) instead */
+            border: solid 4px rgb(41, 82, 23);
+    border-radius: 30px;
+    background-image: url('4381aae009e34d092324d7cc1ccce92e.gif'); /* Set the GIF as the background */
+    background-size: 138%; /* Zoom in by 130% */
+    background-position: center; /* Center the zoomed-in part */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
             margin-bottom: 1rem;
         }
         /* skills */
@@ -1962,7 +1955,7 @@ p {
         
         
         .skills {
-            background-color: #1a5323; 
+            background-color: #073f09; 
             display: flex;
             padding: 1rem;
             text-align: center;
@@ -2132,12 +2125,12 @@ p {
         .gif-container {
             width: 120px; /* Adjust size as needed */
             height: 120px; /* Adjust size as needed */
-            border-radius: 50%;
-            border: #000 solid 1px;
-            background-image: url('22323206.gif'); /* Your GIF */
-            background-size: cover; /* Ensure the GIF covers the container */
-            background-position: center; /* Center the GIF */
-            background-repeat: no-repeat; /* Prevent repeating */
+            border: solid 4px rgb(41, 82, 23);
+            border-radius: 30px;
+            background-image: url('4381aae009e34d092324d7cc1ccce92e.gif'); /* Set the GIF as the background */
+            background-size: 138%; /* Zoom in by 130% */
+            background-position: center; /* Center the zoomed-in part */
+            background-repeat: no-repeat; /* Prevent the background from repeating */
         }
         
         .text-content {
@@ -2183,14 +2176,12 @@ p {
         .gif-container {
             width: 125px; /* Set the width of the container */
             height: 125px; /* Set the height of the container */
-            border-radius: 15px;
-            border: #000000 solid 1px;
-            background-image: url('22323206.gif'); /* Set the GIF as the background */
-            background-size: 150%; /* Zoom in by 130% */
-            background-position: right; /* Center the zoomed-in part */
+            border: solid 4px rgb(41, 82, 23);
+            border-radius: 30px;
+            background-image: url('4381aae009e34d092324d7cc1ccce92e.gif'); /* Set the GIF as the background */
+            background-size: 138%; /* Zoom in by 130% */
+            background-position: center; /* Center the zoomed-in part */
             background-repeat: no-repeat; /* Prevent the background from repeating */
-            transform: scaleX(-1); /* Flip the image horizontally */
-            /* To flip vertically, use scaleY(-1) instead */
             margin-bottom: 1rem;
         }
         /* skills */
@@ -2198,7 +2189,7 @@ p {
         
         
         .skills {
-            background-color: #1a5323; 
+            background-color: #073f09; 
             display: flex;
             padding: 1rem;
             text-align: center;
@@ -2363,12 +2354,12 @@ p {
         .gif-container {
             width: 120px; /* Adjust size as needed */
             height: 120px; /* Adjust size as needed */
-            border-radius: 50%;
-            border: #000 solid 1px;
-            background-image: url('22323206.gif'); /* Your GIF */
-            background-size: cover; /* Ensure the GIF covers the container */
-            background-position: center; /* Center the GIF */
-            background-repeat: no-repeat; /* Prevent repeating */
+            border: solid 4px rgb(41, 82, 23);
+    border-radius: 30px;
+    background-image: url('4381aae009e34d092324d7cc1ccce92e.gif'); /* Set the GIF as the background */
+    background-size: 138%; /* Zoom in by 130% */
+    background-position: center; /* Center the zoomed-in part */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
         }
         
         .text-content {
@@ -2414,14 +2405,12 @@ p {
         .gif-container {
             width: 125px; /* Set the width of the container */
             height: 125px; /* Set the height of the container */
-            border-radius: 15px;
-            border: #000000 solid 1px;
-            background-image: url('22323206.gif'); /* Set the GIF as the background */
-            background-size: 150%; /* Zoom in by 130% */
-            background-position: right; /* Center the zoomed-in part */
-            background-repeat: no-repeat; /* Prevent the background from repeating */
-            transform: scaleX(-1); /* Flip the image horizontally */
-            /* To flip vertically, use scaleY(-1) instead */
+            border: solid 4px rgb(41, 82, 23);
+            border-radius: 30px;
+            background-image: url('4381aae009e34d092324d7cc1ccce92e.gif'); /* Set the GIF as the background */
+            background-size: 138%; /* Zoom in by 130% */
+    background-position: center; /* Center the zoomed-in part */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
             margin-bottom: 1rem;
         }
         /* skills */
@@ -2429,7 +2418,7 @@ p {
         
         
         .skills {
-            background-color: #1a5323; 
+            background-color: #073f09; 
             display: flex;
             padding: 1rem;
             text-align: center;
@@ -2586,12 +2575,12 @@ p {
                 .gif-container {
                     width: 120px; /* Adjust size as needed */
                     height: 120px; /* Adjust size as needed */
-                    border-radius: 50%;
-                    border: #000 solid 1px;
-                    background-image: url('22323206.gif'); /* Your GIF */
-                    background-size: cover; /* Ensure the GIF covers the container */
-                    background-position: center; /* Center the GIF */
-                    background-repeat: no-repeat; /* Prevent repeating */
+                    border: solid 4px rgb(41, 82, 23);
+    border-radius: 30px;
+    background-image: url('4381aae009e34d092324d7cc1ccce92e.gif'); /* Set the GIF as the background */
+    background-size: 138%; /* Zoom in by 130% */
+    background-position: center; /* Center the zoomed-in part */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
                 }
                 
                 .text-content {
@@ -2637,14 +2626,12 @@ p {
                 .gif-container {
                     width: 125px; /* Set the width of the container */
                     height: 125px; /* Set the height of the container */
-                    border-radius: 15px;
-                    border: #000000 solid 1px;
-                    background-image: url('22323206.gif'); /* Set the GIF as the background */
-                    background-size: 150%; /* Zoom in by 130% */
-                    background-position: right; /* Center the zoomed-in part */
-                    background-repeat: no-repeat; /* Prevent the background from repeating */
-                    transform: scaleX(-1); /* Flip the image horizontally */
-                    /* To flip vertically, use scaleY(-1) instead */
+                    border: solid 4px rgb(41, 82, 23);
+                    border-radius: 30px;
+                    background-image: url('4381aae009e34d092324d7cc1ccce92e.gif'); /* Set the GIF as the background */
+                    background-size: 138%; /* Zoom in by 130% */
+    background-position: center; /* Center the zoomed-in part */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
                     margin-bottom: 1rem;
                 }
                 /* skills */
@@ -2652,7 +2639,7 @@ p {
                 
                 
                 .skills {
-                     background-color: #1a5323; 
+                    background-color: #073f09; 
                     display: flex;
                     padding: 1rem;
                     text-align: center;
@@ -2810,12 +2797,12 @@ p {
                 .gif-container {
                     width: 120px; /* Adjust size as needed */
                     height: 120px; /* Adjust size as needed */
-                    border-radius: 50%;
-                    border: #000 solid 1px;
-                    background-image: url('22323206.gif'); /* Your GIF */
-                    background-size: cover; /* Ensure the GIF covers the container */
-                    background-position: center; /* Center the GIF */
-                    background-repeat: no-repeat; /* Prevent repeating */
+                    border: solid 4px rgb(41, 82, 23);
+    border-radius: 30px;
+    background-image: url('4381aae009e34d092324d7cc1ccce92e.gif'); /* Set the GIF as the background */
+    background-size: 138%; /* Zoom in by 130% */
+    background-position: center; /* Center the zoomed-in part */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
                 }
                 
                 .text-content {
@@ -2862,14 +2849,12 @@ p {
                 .gif-container {
                     width: 125px; /* Set the width of the container */
                     height: 125px; /* Set the height of the container */
-                    border-radius: 15px;
-                    border: #000000 solid 1px;
-                    background-image: url('22323206.gif'); /* Set the GIF as the background */
-                    background-size: 150%; /* Zoom in by 130% */
-                    background-position: right; /* Center the zoomed-in part */
+                    border: solid 4px rgb(41, 82, 23);
+                    border-radius: 30px;
+                    background-image: url('4381aae009e34d092324d7cc1ccce92e.gif'); /* Set the GIF as the background */
+                    background-size: 138%; /* Zoom in by 130% */
+                    background-position: center; /* Center the zoomed-in part */
                     background-repeat: no-repeat; /* Prevent the background from repeating */
-                    transform: scaleX(-1); /* Flip the image horizontally */
-                    /* To flip vertically, use scaleY(-1) instead */
                     margin-bottom: 1rem;
                 }
                 /* skills */
